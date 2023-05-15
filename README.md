@@ -13,12 +13,12 @@ En el primer proyecto individual del Bootcamp de la carrera de  Data Science en 
 Se nos pide crear un MVP (Minimum Viable Product) de un producto de Machine Learning en una semana, realizando limpieza y transformación de los datos y que algunas columnas tenian el formato json se aplico json_normalize, para aplanar la data y desplegando la API desde donde consumimos los datos tanto el modelo de Machine Learning como algunos consultas sobre los datos.
 
 Durante el proyecto se realizo los siguentes procesos:
-Extracion de los datos
-Limpieza de datos con Python
-Preprocesamiento de datos para Machine Learning
-Desarrollo de un sistema de recomendación de películas para el usuario
-Desarrollo del API con Fastapi
-Despliegue del API con Render
+- Extracion de los datos
+- Limpieza de datos con Python
+- Preprocesamiento de datos para Machine Learning
+- Desarrollo de un sistema de recomendación de películas para el usuario
+- Desarrollo del API con Fastapi
+- Despliegue del API con Render
 
  Objetivo del Proyecto:
 1. desarrollar una API en fastAPI para realizar la consulta atraves de una funcion
