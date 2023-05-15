@@ -22,7 +22,7 @@ async def index():
     return {" bienvenida": "API REALIZADO POR BEDER RIVERA"}
 
 
-df_fastapi=pd.read_csv("../trabajo_venv/Data_set/df_movies_dataset_actualizado_final.csv",sep=",")
+df_fastapi=pd.read_csv("Data_set/df_movies_dataset_actualizado_final.csv",sep=",")
 # Crear el conjunto de datos y el objeto de entrenamiento                      
 reader = Reader(rating_scale=(1, 5))
 data = Dataset.load_from_df(df_fastapi[['id', 'vote_average', 'popularity']], reader)
