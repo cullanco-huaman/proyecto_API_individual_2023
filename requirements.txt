@@ -28,7 +28,7 @@ pickleshare==0.7.5
 pillow==9.5.0
 pip==23.0.1
 platformdirs==3.2.0
-prompt_toolkint==3.0.38
+prompt_toolkint
 psutil==5.9.4
 pure_eval==0.2.2
 pydantic==1.10.7
