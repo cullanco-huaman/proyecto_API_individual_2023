@@ -1,3 +1,9 @@
+from surprise import Dataset, Reader
+from surprise import SVD
+from surprise.model_selection import train_test_split
+from surprise import accuracy
+from surprise.prediction_algorithms import knns
+from surprise import KNNWithMeans
 
 from fastapi import FastAPI
 
@@ -17,8 +23,13 @@ async def index():
 
 
 df_fastapi=pd.read_csv("../trabajo_venv/Data_set/df_movies_dataset_actualizado_final.csv",sep=",")
-                       
-
+# Crear el conjunto de datos y el objeto de entrenamiento                      
+reader = Reader(rating_scale=(1, 5))
+data = Dataset.load_from_df(df_fastapi[['id', 'vote_average', 'popularity']], reader)
+trainset, testset = train_test_split(data, test_size=.25)
+# Crear el modelo de recomendación
+model = KNNWithMeans(k=50, sim_options={'name': 'cosine', 'user_based': False})
+model.fit(trainset)
 #Se ingresa el mes y la funcion retorna la cantidad de peliculas que se estrenaron ese mes 
 # (nombre del mes, en str, ejemplo 'enero') historicamente return {mes:mes ,cantidad:respuesta}
 @app.get("/peliculas_mes/")
