@@ -38,28 +38,4 @@ Transformaciones de los datos:
 
 . Eliminar las columnas que no serán utilizadas, video,imdb_id,adult,original_title,vote_count,poster_path y homepage.
 
-Enlace a la API Listo para consumir:https://proyecto-api-modulo10-depp.onrender.com/docs
-
-HERAMIENTAS QUE SE A UTILIZADO Y MATERIALES COMPLEMENTARIOS:
-1. fastAPI(Gia de usuario de fastAPI):https://fastapi.tiangolo.com/tutorial/
-2. Render(documentacion para el usuario sobre render):https://render.com/docs/free#free-web-services
-3. Tutural de render:https://github.com/HX-FNegrete/render-fastapi-tutorial.git
-4. como usar .gitignore en las diferentes herramientas:https://github.com/github/gitignore/blob/main/Python.gitignore 
-5. ¡Bienvenidos al primer proyecto individual de la etapa de labs! En esta ocasión, deberá hacer un trabajo situándose en el rol de un MLOps Engineer y lo encuentras en el siguiente enlace de git:https://github.com/HX-PRomero/PI_ML_OPS.git
-6. Pandas json_normalize():https://github.com/BindiChen/machine-learning/blob/main/data-analysis/028-pandas-json_normalize/pandas-json_normalize.ipynb
-7. cuan estuve trabajando con entorno virtual me surgieron algunos errores como Set-ExecutionPolicy y lo encontramos en la siguiente 
-   documentacion https://learn.microsoft.com/es-es/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.3
- 8. Estoy tratando de instalar un paquete en Python, pero Python arroja un error al instalar paquetes. Recibo un error cada vez que intento instalar pip install surprise.
-  . primero ejecutas para actualizar el setuptool con pip install --upgrade setuptool
-  . si te sale el error: se requiere Microsoft Visual C ++ 14.0 o superior, lo instalas, mas respuestas: https://stackoverflow.com/questions/64261546/how-to-solve-error-microsoft-visual-c-14-0-or-greater-is-required-when-inst 
-   
-   VIDEOS DE APOYO
-   1. Como crear repositorio y subir a git https://www.youtube.com/watch?v=eQMcIGVc8N0
-   2. Error de Git Fatal: el origen remoto ya existe https://www.youtube.com/watch?v=H3KjgiBaakM
-   RECOMENDACION DE ERRORES AL MOMENTO DE RENDERIZAR 
-   1. en el requirementts.txt al renderizar no coloque la version en los siguiente:
-     asttokens,pandas,numpy, matplotlibipy,kernel,ipython,jedi,contourpy y pythonwin, para que no te arroje el error o sino trabaja con.
-     fastAPI, uvicorn, pandas y numpay , para que te evites problemas al momento de renderizar.
-   2. cuando te arroja un error que no encuentra el directorio ejemplo si tu dataset al subir a git se encuetra en mi_dataset, por ende.
-    Tienes que llamar de mi_dataset al renderizar no de la raiz como estubiste trabajando localmente  
 
