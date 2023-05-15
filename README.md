@@ -21,20 +21,20 @@ Durante el proyecto se realizo los siguentes procesos:
 - Despliegue del API con Render
 
  Objetivo del Proyecto:
-1. desarrollar una API en fastAPI para realizar la consulta atraves de una funcion
-2. desarrollar un sistema de recomendacion de peliculas y deve de recomendar 5 peliculas con mayor puntaje
+- desarrollar una API en fastAPI para realizar la consulta atraves de una funcion
+- desarrollar un sistema de recomendacion de peliculas y deve de recomendar 5 peliculas con mayor puntaje
 
 Para Realizar Recomendaciones Utilizando la Librería Surprise, es necesario seguir los siguientes pasos:
 
-1. Importar las librerías necesarias y cargar los datos de las películas.
+- Importar las librerías necesarias y cargar los datos de las películas.
 
-2. Crear un objeto de la clase Reader para definir el rango de calificaciones posibles.
+- Crear un objeto de la clase Reader para definir el rango de calificaciones posibles.
 
-3. Crear un objeto de la clase Dataset para cargar los datos en un formato que pueda ser utilizado por Surprise.
+- Crear un objeto de la clase Dataset para cargar los datos en un formato que pueda ser utilizado por Surprise.
 
-4. Divide los datos en conjuntos de entrenamiento y prueba.
+-  Divide los datos en conjuntos de entrenamiento y prueba.
 
-5. Seleccione un algoritmo de recomendaciones, entrenamos con los datos de entrenamiento y prediga las valoraciones de las peliculas para un voto promedio que califico el usuario para dicha titulo de la pelicula.
+-  Seleccione un algoritmo de recomendaciones, entrenamos con los datos de entrenamiento y prediga las valoraciones de las peliculas para un voto promedio que califico el usuario para dicha titulo de la pelicula.
 Ordenar las películas según las calificaciones predichas y devolver las cinco películas con mayor puntaje.
 
 Enlace a la API Listo para consumir: https://proyecto-api-recomendacion.onrender.com/docs#/
