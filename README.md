@@ -37,7 +37,7 @@ Para Realizar Recomendaciones Utilizando la Librería Surprise, es necesario seg
 -  Seleccione un algoritmo de recomendaciones, entrenamos con los datos de entrenamiento y prediga las valoraciones de las peliculas para un voto promedio que califico el usuario para dicha titulo de la pelicula.
 Ordenar las películas según las calificaciones predichas y devolver las cinco películas con mayor puntaje.
 
-Enlace a la API Listo para consumir: https://proyecto-api-recomendacion.onrender.com/docs#/
+Enlace a la API Listo para consumir: https://proyecto-api-recomendacion.onrender.com
 
 HERAMIENTAS QUE SE A UTILIZADO Y MATERIALES COMPLEMENTARIOS:
 
